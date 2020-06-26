@@ -3,6 +3,7 @@ use_frameworks!
 target 'RxCocoa-Texture_Example' do
   pod 'RxCocoa-Texture', :path => '../'
   pod 'RxAlamofire'
+  pod 'Texture', :git => 'https://github.com/TextureGroup/Texture', :branch => '3.0.0-rc.2'
 
   target 'RxCocoa-Texture_Tests' do
     inherit! :search_paths

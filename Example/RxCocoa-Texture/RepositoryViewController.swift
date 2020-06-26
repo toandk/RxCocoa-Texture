@@ -17,7 +17,7 @@ class RepositoryViewController: ASViewController<ASTableNode> {
     
     let disposeBag = DisposeBag()
     
-    init() {
+    override init() {
         let tableNode = ASTableNode(style: .plain)
         tableNode.backgroundColor = .white
         tableNode.automaticallyManagesSubnodes = true
